@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://waveelectricalnoosa.com.au/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://www.waveelectricalnoosa.com.au/</loc>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/about.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://www.waveelectricalnoosa.com.au/about.html</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/services.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://www.waveelectricalnoosa.com.au/services.html</loc>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/gallery.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://www.waveelectricalnoosa.com.au/gallery.html</loc>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/contact.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://www.waveelectricalnoosa.com.au/contact.html</loc>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Location pages -->
   <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-sunrise-beach.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-sunrise-beach.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-noosa-heads.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-noosa-heads.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-noosaville.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-noosaville.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-sunshine-beach.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-sunshine-beach.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-tewantin.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-tewantin.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-peregian.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-peregian.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://waveelectricalnoosa.com.au/electrician-cooroy.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/electrician-cooroy.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Service pages -->
   <url>
-    <loc>https://waveelectricalnoosa.com.au/switchboard-upgrades-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/switchboard-upgrades-noosa.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.waveelectricalnoosa.com.au/smoke-alarms-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/smoke-alarms-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/emergency-electrician-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/emergency-electrician-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/renovation-electrician-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/renovation-electrician-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/ev-charger-installation-noosa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.waveelectricalnoosa.com.au/downlight-installation-noosa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.waveelectricalnoosa.com.au/ceiling-fans-noosa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.waveelectricalnoosa.com.au/fault-finding-noosa.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.waveelectricalnoosa.com.au/commercial-electrician-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/ev-charger-installation-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/property-poles-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/downlight-installation-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/three-phase-power-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://waveelectricalnoosa.com.au/ceiling-fans-noosa.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://waveelectricalnoosa.com.au/fault-finding-noosa.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://waveelectricalnoosa.com.au/commercial-electrician-noosa.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://waveelectricalnoosa.com.au/property-poles-noosa.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://waveelectricalnoosa.com.au/three-phase-power-noosa.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://waveelectricalnoosa.com.au/outdoor-lighting-noosa.html</loc>
+    <loc>https://www.waveelectricalnoosa.com.au/outdoor-lighting-noosa.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
