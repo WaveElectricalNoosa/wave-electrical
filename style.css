@@ -2,6 +2,80 @@
    WAVE ELECTRICAL — STYLESHEET
    ============================================ */
 
+/* ===== FONTS (self-hosted Outfit, SIL OFL 1.1 - see fonts/OFL.txt) ===== */
+/* latin-ext */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/outfit-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/outfit-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/outfit-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/outfit-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/outfit-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/outfit-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/outfit-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/outfit-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   --blue: #2067AA;
   --blue-dark: #164f82;
@@ -19,6 +93,7 @@
 html { scroll-behavior: smooth; }
 body { font-family: var(--font); color: var(--text); overflow-x: hidden; background: white; }
 img { max-width: 100%; display: block; }
+picture { display: contents; }
 ul { list-style: none; }
 a { color: inherit; text-decoration: none; }
 
@@ -79,7 +154,7 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase; margin-bottom: 0.6em; opacity: 0.95;
 }
 .hero-trust { font-size: clamp(0.85em, 1.6vw, 1.05em); color: rgba(255,255,255,0.9); margin-bottom: 0.35em; font-weight: 400; letter-spacing: 0.02em; }
-.hero-sub { font-size: clamp(0.95em, 2vw, 1.2em); opacity: 0.75; margin-bottom: 0.75em; font-weight: 300; }
+.hero-sub { font-size: clamp(0.95em, 2vw, 1.2em); opacity: 0.9; margin-bottom: 0.75em; font-weight: 300; }
 .hero-buttons { display: flex; gap: 1em; flex-wrap: wrap; justify-content: center; }
 
 /* Wave animation */
@@ -136,7 +211,7 @@ a { color: inherit; text-decoration: none; }
 /* ===== INNER PAGE HERO ===== */
 .page-hero { background: var(--blue); color: white; text-align: center; padding: 8em 2em 4em; }
 .page-hero h1 { font-size: clamp(2em, 4vw, 3em); font-weight: 700; margin-bottom: 0.4em; }
-.page-hero p { font-size: 1.1em; opacity: 0.8; max-width: 580px; margin: 0 auto 1.5em; }
+.page-hero p { font-size: 1.1em; opacity: 0.9; max-width: 580px; margin: 0 auto 1.5em; }
 
 /* ===== SERVICES ===== */
 .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5em; margin-bottom: 2.5em; }
@@ -165,14 +240,14 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ===== REVIEWS ===== */
-.reviews-section .section-label { color: rgba(255,255,255,0.6); }
+.reviews-section .section-label { color: rgba(255,255,255,0.9); }
 .reviews-section h2 { color: white; }
-.reviews-section .section-sub { color: rgba(255,255,255,0.7); }
+.reviews-section .section-sub { color: rgba(255,255,255,0.9); }
 .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25em; margin-bottom: 2.5em; }
 .review-card { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); border-radius: var(--radius); padding: 1.5em; }
 .review-stars { color: #F5A623; margin-bottom: 0.75em; letter-spacing: 0.05em; }
-.review-text { font-size: 0.85em; line-height: 1.75; color: rgba(255,255,255,0.88); margin-bottom: 1em; font-style: italic; }
-.review-author { font-size: 0.78em; font-weight: 600; color: rgba(255,255,255,0.55); }
+.review-text { font-size: 0.85em; line-height: 1.75; color: white; margin-bottom: 1em; font-style: italic; }
+.review-author { font-size: 0.78em; font-weight: 600; color: white; }
 .reviews-cta { text-align: center; }
 
 /* ===== GALLERY ===== */
@@ -201,13 +276,13 @@ a.area-tag:hover { border-color: var(--blue,#1a6fc4); color: var(--blue,#1a6fc4)
 .footer-contacts a { color: rgba(255,255,255,0.7); font-size: 0.9em; transition: color 0.2s; }
 .footer-contacts a:hover { color: white; }
 .footer-social { display: flex; justify-content: center; gap: 1.25em; margin: 1em 0; }
-.footer-social a { color: rgba(255,255,255,0.45); font-size: 0.85em; transition: color 0.2s; }
+.footer-social a { color: rgba(255,255,255,0.7); font-size: 0.85em; transition: color 0.2s; }
 .footer-social a:hover { color: white; }
 .footer-hr { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 1.5em 0; }
-.footer-service-areas { text-align:center; margin:1em 0 0.5em; font-size:0.78em; }
+.footer-service-areas { text-align:center; margin:1em 0 0.5em; font-size:0.78em; color: rgba(255,255,255,0.7); }
 .footer-service-areas a { color: rgba(255,255,255,0.7); text-decoration: underline; margin: 0 0.4em; transition: color 0.2s; }
 .footer-service-areas a:hover { color: white; }
-.footer-legal { font-size: 0.72em; color: rgba(255,255,255,0.35); line-height: 2; }
+.footer-legal { font-size: 0.72em; color: rgba(255,255,255,0.55); line-height: 2; }
 .footer-legal a { color: inherit; }
 
 /* Google reviews button */
