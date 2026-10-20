@@ -7,13 +7,33 @@
   <meta name="description" content="Completed electrical projects by Wave Electrical Noosa — residential lighting, bathroom renovations, commercial fit-outs, switchboards and more across Noosa &amp; the Sunshine Coast." />
 
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-89X2VVLFEL"></script>
   <script>
+    /* Google Analytics 4 - only real visitors on the live site send data. Blocked for: other hostnames
+       (localhost, previews), automated browsers (Lighthouse, PageSpeed, Puppeteer, Selenium report
+       navigator.webdriver), known test-tool user agents, and devices opted out via ?analytics=off
+       (undo with ?analytics=on). Click events: js/tracking.js */
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-89X2VVLFEL');
+    (function () {
+      var id = 'G-89X2VVLFEL';
+      var send = location.hostname === 'www.waveelectricalnoosa.com.au' && !navigator.webdriver &&
+        !/HeadlessChrome|Lighthouse|PTST|GTmetrix|Pingdom/i.test(navigator.userAgent);
+      try {
+        if (/[?&]analytics=off\b/.test(location.search)) localStorage.setItem('wave-analytics-off', '1');
+        if (/[?&]analytics=on\b/.test(location.search)) localStorage.removeItem('wave-analytics-off');
+        if (localStorage.getItem('wave-analytics-off') === '1') send = false;
+      } catch (e) {}
+      window.waveAnalyticsEnabled = send;
+      if (!send) { window['ga-disable-' + id] = true; return; }
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', id);
+    })();
   </script>
+  <script src="js/tracking.js" defer></script>
 
   <link rel="canonical" href="https://www.waveelectricalnoosa.com.au/gallery.html" />
   <meta property="og:type" content="website" />
