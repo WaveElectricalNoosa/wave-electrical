@@ -42,12 +42,34 @@
   <meta property="og:url" content="https://www.waveelectricalnoosa.com.au/air-conditioning-noosa.html" />
   <meta property="og:title" content="Split System Air Conditioning in Noosa | Wave Electrical" />
   <meta property="og:description" content="Split system supply and installation, replacement, servicing and cleaning across Noosa and the northern Sunshine Coast. Call Steve on 0423 181 744." />
-  <meta property="og:image" content="https://www.waveelectricalnoosa.com.au/images/wave-electrical-team-commercial-fit-out-noosa.jpg" />
+  <meta property="og:image" content="https://www.waveelectricalnoosa.com.au/images/split-system-aircon-installation-sunrise-beach-noosa.jpg" />
 
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .ac-hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; }
+    .ac-hero-actions .btn { justify-content: center; min-height: 44px; }
+    .ac-hero-actions .btn:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+    .ac-work-photos {
+      display: grid;
+      grid-template-columns: minmax(0, 5fr) minmax(0, 3fr);
+      gap: 1.25rem;
+      margin: 2rem 0 1rem;
+    }
+    .ac-work-photos figure { margin: 0; }
+    .ac-work-photos img { display: block; width: 100%; height: auto; border-radius: 0.65rem; }
+    .ac-work-photos figcaption { margin-top: 0.5rem; color: var(--text-muted); }
+    .ac-gallery-link { color: var(--blue); text-decoration: underline; text-underline-offset: 0.18em; }
+    @media (max-width: 768px) {
+      .ac-page-hero { padding: 6.5rem 1.25rem 2.5rem; }
+    }
+    @media (max-width: 600px) {
+      .ac-work-photos { grid-template-columns: minmax(0, 1fr); }
+      .ac-work-photos figure + figure { width: min(100%, 18rem); justify-self: center; text-align: center; }
+    }
+  </style>
 
   <script type="application/ld+json">
   {
@@ -112,9 +134,13 @@
 
 <main id="main">
 
-<div class="page-hero">
+<div class="page-hero ac-page-hero">
   <h1>Split System Air Conditioning in Noosa</h1>
   <p>Supply and installation, replacement, servicing and cleaning of split system air conditioners for homes across Noosa and the northern Sunshine Coast.</p>
+  <div class="ac-hero-actions">
+    <a href="tel:0423181744" class="btn btn-white">Call 0423 181 744</a>
+    <a href="https://book.servicem8.com/request_booking?uuid=bc0fbac1-0127-46d5-ac33-21fa737d187b" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white">Request a Booking</a>
+  </div>
 </div>
 
 <section class="section">
@@ -129,6 +155,27 @@
         <a href="tel:0423181744" class="btn btn-blue">Call Steve — 0423 181 744</a>
         <a href="contact.html" class="btn btn-outline">Get a Quote</a>
       </div>
+      <div class="ac-work-photos">
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="images/webp/split-system-aircon-installation-sunrise-beach-noosa-480.webp 480w, images/webp/split-system-aircon-installation-sunrise-beach-noosa-800.webp 800w, images/webp/split-system-aircon-installation-sunrise-beach-noosa-1200.webp 1200w"
+              sizes="(max-width: 600px) calc(100vw - 2.5rem), (max-width: 850px) 55vw, 475px" />
+            <img src="images/split-system-aircon-installation-sunrise-beach-noosa.jpg" width="2000" height="1333" loading="lazy" decoding="async"
+              alt="Wall-mounted split-system indoor unit above a desk in a Sunrise Beach home office" />
+          </picture>
+          <figcaption>Sunrise Beach home-office installation</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="images/webp/split-system-aircon-noosa-electrician-480.webp 480w, images/webp/split-system-aircon-noosa-electrician-800.webp 800w"
+              sizes="(max-width: 600px) 288px, (max-width: 850px) 33vw, 285px" />
+            <img src="images/split-system-aircon-noosa-electrician.jpg" width="1550" height="1716" loading="lazy" decoding="async"
+              alt="Outdoor split-system unit with gauges and a vacuum pump connected during commissioning" />
+          </picture>
+          <figcaption>Outdoor unit during commissioning</figcaption>
+        </figure>
+      </div>
+      <p><a class="ac-gallery-link" href="gallery.html#split-system-work">See more split-system installation photos in our Gallery</a>.</p>
     </div>
   </div>
 </section>
