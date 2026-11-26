@@ -470,3 +470,72 @@ a.contact-value:hover { color: var(--blue); }
 .form-status a { color: inherit; font-weight: 700; text-decoration: underline; }
 .contact-form button[disabled] { opacity: 0.7; cursor: wait; }
 .contact-form[hidden] { display: none; } /* .contact-form sets display:flex, which would otherwise override [hidden] */
+
+/* ===== HOMEPAGE: TRUSTED BRANDS & PROFESSIONAL STANDARDS ===== */
+.trust-section { --trust-navy: #183b58; --trust-slate: #446078; --trust-line: rgba(32,103,170,0.16); padding-top: 2.75em; padding-bottom: 2.75em; }
+.trust-section h2 { color: var(--trust-navy); font-size: clamp(1.9em, 4.2vw, 3.2em); line-height: 1.1; margin-bottom: 0.3em; }
+.trust-intro { font-size: 1.18em; line-height: 1.5; color: var(--trust-slate); max-width: 1040px; margin-bottom: 1.3em; }
+.trust-creds { list-style: none; margin: 0 0 1.4em; padding: 0; display: grid; grid-template-columns: 1fr 1fr; background: rgba(32,103,170,0.06); border: 1px solid var(--trust-line); border-radius: var(--radius); }
+.trust-creds li { display: flex; align-items: center; gap: 1.1em; padding: 1em 1.4em; min-width: 0; }
+.trust-creds li + li { border-left: 1px solid var(--trust-line); }
+.cred-badge { flex-shrink: 0; display: flex; align-items: center; gap: 0.55em; }
+.cred-mark { font-weight: 700; font-size: 1.15em; letter-spacing: 0.14em; color: var(--trust-navy); }
+.cred-chip { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.1em; background: rgba(32,103,170,0.1); color: var(--blue); font-weight: 700; font-size: 0.82em; letter-spacing: 0.04em; line-height: 1.1; border-radius: 0.5em; padding: 0.45em 0.6em; }
+.cred-chip-check { width: 3.6em; height: 3.6em; padding: 0; }
+.cred-text { min-width: 0; }
+.cred-title { display: block; font-weight: 700; font-size: 1.15em; line-height: 1.3; color: var(--trust-navy); }
+.cred-sub { display: block; font-size: 0.92em; line-height: 1.45; color: var(--trust-slate); margin-top: 0.15em; }
+.cred-num { display: block; font-weight: 700; font-size: 1.1em; color: var(--blue); margin-top: 0.1em; }
+.trust-section .trust-brands-title { font-size: 0.82em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--trust-slate); margin-bottom: 0.65em; }
+.trust-brands { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); background: white; border: 1px solid #d9e2ec; border-radius: var(--radius); overflow: hidden; }
+.trust-brands li { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 0.4em; padding: 0.95em 0.75em 0.9em; text-align: center; min-width: 0; }
+.trust-brands li + li { border-left: 1px solid #d9e2ec; }
+.brand-mark { display: flex; align-items: center; justify-content: center; width: 100%; height: 56px; } /* fixed height = reserved logo space */
+.brand-mark .brand-logo { display: block; width: auto; height: auto; max-width: 100%; object-fit: contain; }
+.brand-logo-clipsal { max-height: 32px; }
+.brand-logo-hager { max-height: 42px; }
+.brand-mark .brand-logo-mhi { height: 46px; } /* vector without intrinsic size: explicit height */
+.brand-logo-domus { max-height: 32px; }
+.brand-logo-red { max-height: 40px; }
+.brand-use { font-size: 0.92em; line-height: 1.35; color: var(--trust-slate); }
+.vh { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.reviews-rating { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.35em 0.75em; color: white; font-size: 1.05em; margin-bottom: 0.6em; }
+.rating-stars { color: #F5A623; letter-spacing: 0.1em; font-size: 1.1em; }
+.rating-score { font-weight: 700; font-size: 1.35em; line-height: 1; }
+.rating-count { padding-left: 0.75em; border-left: 1px solid rgba(255,255,255,0.45); font-weight: 500; }
+@media (max-width: 768px) {
+  .trust-section { padding-top: 1.6em; padding-bottom: 1.75em; }
+  .trust-intro { font-size: 0.95em; line-height: 1.45; margin-bottom: 0.85em; }
+  .trust-creds { grid-template-columns: 1fr; margin-bottom: 1em; }
+  .trust-creds li { padding: 0.6em 0.85em; gap: 0.75em; }
+  .cred-badge { flex-direction: column; gap: 0.3em; width: 3.9em; }
+  .trust-creds li + li { border-left: 0; border-top: 1px solid var(--trust-line); }
+  .cred-mark { font-size: 1em; }
+  .cred-chip { font-size: 0.75em; }
+  .cred-chip-check { width: 3.3em; height: 3.3em; }
+  .cred-title { font-size: 0.98em; }
+  .cred-sub { font-size: 0.8em; margin-top: 0.1em; }
+  .cred-num { font-size: 1em; margin-top: 0; }
+  .trust-section .trust-brands-title { margin-bottom: 0.55em; }
+  .trust-brands { grid-template-columns: 1fr 1fr; }
+  .trust-brands li + li { border-left: 0; }
+  .trust-brands li { border-top: 1px solid #d9e2ec; padding: 0.55em 0.5em 0.5em; gap: 0.15em; }
+  .trust-brands li:nth-child(-n+2) { border-top: 0; }
+  .trust-brands li:nth-child(2), .trust-brands li:nth-child(5) { border-left: 1px solid #d9e2ec; }
+  .trust-brands .brand-wide { grid-column: 1 / -1; }
+  .brand-mark { height: 32px; }
+  .trust-brands .brand-wide .brand-mark { height: 38px; } /* MHI: own row, slightly larger */
+  .brand-logo-clipsal { max-height: 24px; }
+  .brand-logo-hager { max-height: 31px; }
+  .brand-mark .brand-logo-mhi { height: 38px; }
+  .brand-logo-domus { max-height: 26px; }
+  .brand-logo-red { max-height: 29px; }
+  .brand-use { font-size: 0.82em; }
+}
+@media (max-width: 400px) {
+  .brand-logo-clipsal { max-height: 21px; }
+  .brand-logo-hager { max-height: 28px; }
+  .brand-logo-domus { max-height: 23px; }
+  .brand-logo-red { max-height: 26px; }
+  .rating-count { flex-basis: 100%; border-left: 0; padding-left: 0; }
+}
